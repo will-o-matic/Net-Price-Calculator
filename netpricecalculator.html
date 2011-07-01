@@ -2,14 +2,15 @@
 
 <head>
 <script type="text/javascript" src="./js/jquery-1.5.1.min.js"></script> 
+<script type="text/javascript" src="./js/jquery.ba-resize.min.js"></script> 
 <script type="text/javascript" src="./js/toolkit.js"></script>
 <script type="text/javascript" src="./js/jquery.metadata.js"></script>
 <script type="text/javascript" src="./js/jquery.validate.js"></script>
 <script type="text/javascript" src="./js/jquery.form.js"></script>
-<script type="text/javascript" src="./js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.8.14.custom.min.js"></script>
 <script type="text/javascript" src="./js/jquery.localScroll-1.2.7-min.js"></script>
 <script type="text/javascript" src="./js/jjquery.scrollTo-1.4.2-min.js"></script>
-<link type="text/css" href="./css/custom-theme/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+<link type="text/css" href="./css/custom-theme/jquery-ui-1.8.14.custom.css" rel="stylesheet" />
 
 <script type="text/javascript">
 $.metadata.setType("attr", "validate");
@@ -35,7 +36,7 @@ $.metadata.setType("attr", "validate");
 	div.nextButton:hover, div.backButton:hover, div.startOverButton:hover {background-color:#4588cc;}
 	div.nextButton {position: relative;
 					right: -265px;	
-					background-color:#0079c1;}
+					background-color:#0079c2;}
 	div#planSectionNextButton {position:absolute;
 								right:10px;}
 	div.backButton {background-color:#76a1cc;}
@@ -197,19 +198,23 @@ $.metadata.setType("attr", "validate");
 	div#estimatedBalance {display:inline;}
 	div#estimatedBalanceResult {display:inline;}
 	div.hiddenTab {display:none;}
-	div#npeNavigation {}
+	div#npeNavigation {margin-top:-6px;}
 	
-	div#NPEHeader {}
-	div#NPEFooter {}
+	div#NPEHeader {
+	}
+
+	div#NPEFooter {margin-top:-6px;}
+
 </style>
 
 </head>
 
 <body>
 <div id="NPEHeader">
-<img src="./assets/NET_PRICE_CALC_header-07.png" />
+<img src="./assets/NET_PRICE_CALC_header.png" />
 </div>
 <div class="NPE" id="NPEContainer">
+
 	<div id="npeNavigation">
 	<ul>
 		<li><a href="#planSection" id="planSectionLink">YOUR PLANS</a></li>
@@ -529,7 +534,7 @@ $.metadata.setType("attr", "validate");
 	</div>
 	</div>
 <div id="NPEFooter">
-<img src="./assets/NET_PRICE_CALC_footer-08.png" />
+<img src="./assets/NET_PRICE_CALC_footer.png" />
 </div>	
 	
 	
